@@ -6,14 +6,13 @@ There are N players of Chaos Tag. Whenever a player is tagged, they become inact
 
 ## Solution
 
-The pattern is Number of tags = (2^(N - 1)) - 1
+The pattern is: Average number of tags = (2^(N - 1)) - 1
 
-Eg:
-
-2 : 1
-3 : 3
-4 : 7
-5 : 15
-6 : 31
-7 : 63
-...
+Eg:  
+2 : 1  
+3 : 3  
+4 : 7  
+5 : 15  
+6 : 31  
+7 : 63  
+... 
