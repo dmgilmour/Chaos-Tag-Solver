@@ -47,14 +47,17 @@ for num_players in range(lower_range, upper_range):
 			# Add the tagged player to the tagging players
 			# capture list
 			playerCaptures[tagging_player].append(tagged_player)
+			
+			tag_count += 1
+							
 			"""
+			Optional Debugging Output
 			print("")
 			print(activePlayers)
 			print(tagged_player)
 			print(tagging_player)
 			print(playerCaptures)
 			"""
-			tag_count += 1
 
 			# Return all players captured by the tagged player
 			activePlayers += playerCaptures[tagged_player]
